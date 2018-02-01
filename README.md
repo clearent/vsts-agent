@@ -27,3 +27,4 @@ docker run \
 In the above, the /keys volume contains the pre-configured kerberos keytab and configuration file.
 See https://github.com/Microsoft/vsts-agent-docker for a description of the VSTS variable options.
   
+Details on configuring kerberos for your environment can be found here: https://web.mit.edu/kerberos/krb5-1.13/doc/index.html
