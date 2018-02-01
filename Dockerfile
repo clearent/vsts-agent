@@ -9,6 +9,7 @@ VOLUME ["/keys"]
 
 ENV RANCHER_COMPOSE_VERSION 0.12.5
 
-RUN curl https://releases.rancher.com/compose/v0.12.5/rancher-compose-linux-amd64-v0.12.5.tar.gz -o rancher-compose.tgz && \
+RUN apt-get install -y gettext-base && \
+    curl https://releases.rancher.com/compose/v0.12.5/rancher-compose-linux-amd64-v0.12.5.tar.gz -o rancher-compose.tgz && \
     tar zxvf rancher-compose.tgz && \
     ln -s /vsts/rancher-compose-v0.12.5/rancher-compose /usr/local/bin/rancher-compose
