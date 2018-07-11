@@ -1,4 +1,4 @@
-FROM microsoft/vsts-agent:ubuntu-16.04-tfs-2017-u1-docker-17.06.0-ce-standard
+FROM microsoft/vsts-agent:ubuntu-16.04-tfs-2018-u2-docker-17.06.0-ce-standard
 
 #Install kerberos for integrated sql authentication
 ENV DEBIAN_FRONTEND noninteractive

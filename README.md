@@ -10,7 +10,7 @@ OR build it yourself
 cd vsts-agent
 docker build -t vsts-agent .</pre>
 
-This image is built upon `microsoft/vsts-agent:ubuntu-16.04-tfs-2017-u1-docker-17.06.0-ce-standard`.  Alter the Dockerfile to rebuild upon other Microsoft provided images.
+This image is built upon `microsoft/vsts-agent:ubuntu-16.04-tfs-2018-u2-docker-17.06.0-ce-standard`.  Alter the Dockerfile to rebuild upon other Microsoft provided images.
 
 ## Running the image
 <pre>
